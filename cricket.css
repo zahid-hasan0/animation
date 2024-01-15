@@ -1,0 +1,34 @@
+
+.container{
+    border: 2px solid green;
+}
+
+.container:hover .ball{
+
+    transform: translate(1000px ,-600px );
+    transition:transform .2s ease-in-out .2s ;
+   
+
+}
+
+.ball{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 30%;
+    bottom: 30px;
+}
+
+.container:hover .bat{
+
+transform: rotate(-90deg);
+transform-origin: 100% 0% ;
+transition:transform 0.3s ease-in-out;
+}
+
+h1{
+text-align: center;
+font-size: 4rem;
+}
